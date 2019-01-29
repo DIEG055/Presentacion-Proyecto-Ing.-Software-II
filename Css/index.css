@@ -1,0 +1,322 @@
+section,
+.container-slides {
+  padding: 6rem 0;
+}
+
+
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0ea5c6;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #0ea5c6;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #0ea5c6;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #0ea5c6 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #0ea5c6;
+  }
+  /* titulo del nav */
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #red;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #fff;
+  }
+  /* hoveer sobre los items */
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #074684;;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../Img/schoolItems3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+.home-button{
+  background-color: #0ea5c6 !important;
+  border: 1px solid #0ea5c6 !important;
+  padding: 15px !important;
+}
+
+#about{
+
+  background-image: url('../Img/classroom2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  /* filter: grayscale(40%); */
+}
+
+#about h4,
+#about h2,
+ {
+  color: #3cc2df;
+}
+
+#about hr{
+  max-width: 300px;
+  border-width: 3px;
+  border-color: #3cc2df;
+}
+
+#learning{
+  background-color: #f4f3f3;
+}
+
+.learning-text{
+  padding: 50px;
+  text-align: center;
+}
+
+.carousel-selectors {
+  bottom:-50px !important;
+}
+
+.carousel-selectors li{
+  background-color: #212529 !important;
+}
+
+.container-slides{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.carousel-item img{
+  width: 250px;
+}
+
+#frecuentQuestions{
+  background-color: #f4f3f3;
+}
+
+#frecuentQuestions h2{
+  margin-bottom: 3rem;
+}
+
+#frecuentQuestions h4{
+  text-align: center;
+}
+
+.questions-line{
+  max-width: 80%;
+  border-width: 2px;
+  border-color: #F05F40;
+}
+
+.admission-icon-container{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.admission-icon{
+  font-size: 100px;
+  align-items: center;
+  text-align: center
+}
+
+#admissions h5{
+  text-align: center;
+  padding: 10px;
+}
+
+#name,
+#lastName,
+#email{
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  height: 40px;
+  background-color: #eef2f5;
+  margin:20px;
+  box-shadow: none;
+}
+
+#emailHelp{
+  margin-left: 25px;
+  margin-top: -15px;;
+}
+
+#msg{
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  height: 200px;
+  background-color: #eef2f5;
+  margin:20px;
+  box-shadow: none;
+}
+
+.card-item{
+  margin:  15px 75px;
+  border-radius: 7px !important;
+  text-align: center;
+  border: 1px solid #0ea5c6;
+}
+
+.card-header{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+.card-body{
+  padding:  15px 50px !important;
+}
+
+.btn-link:hover{
+  text-decoration: none !important;
+  color: #f16821;
+}
+
+
+#footer{
+  background-color: #222831;
+  color: #fff;
+  font-size: 25px;
+}
+
+#footer li{
+  list-style: none;;
+  display:  inline;
+  margin: 15px;
+}
+
+#footer h6{
+  padding: 8px;
+ }
+
+.info-footer{
+  display: flex;
+}
+
+.info-footer h5{
+  font-size: 12px;
+}
+
+.icon-container{
+  text-align: center;
+}
+.info-footer i{
+  font-size: 30px;
+}
+
+.contact-info{
+  padding: 15px;
+  font-weight: lighter;
+}
+
+.info-footer i{
+  margin: 15px;
+}
+
+.social-media{
+  display: flex;
+  align-items: center;
+}
