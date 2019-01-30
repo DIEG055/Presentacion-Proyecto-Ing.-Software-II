@@ -23,13 +23,15 @@ section,
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #0ea5c6;
 }
-
+#mainNav .navbar-nav > lu{
+  align-items: center;
+}
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #0ea5c6;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -260,7 +262,6 @@ header.masthead p {
 }
 
 .card-item{
-  margin:  15px 75px;
   border-radius: 7px !important;
   text-align: center;
   border: 1px solid #0ea5c6;
@@ -306,6 +307,7 @@ header.masthead p {
 
 .info-footer{
   display: flex;
+  justify-content: center;
 }
 
 .info-footer h5{
@@ -326,9 +328,19 @@ header.masthead p {
 
 .info-footer i{
   margin: 15px;
+
 }
 
 .social-media{
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+.social-media ul{
+    padding: 0;
+}
+
+.social-media i{
+    width: 30px;
+    text-align: center;
 }
