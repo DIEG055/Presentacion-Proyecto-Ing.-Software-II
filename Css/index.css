@@ -229,6 +229,7 @@ header.masthead p {
   padding: 10px;
 }
 
+
 #name,
 #lastName,
 #email{
@@ -254,6 +255,10 @@ header.masthead p {
   box-shadow: none;
 }
 
+#accordionQuestion{
+  padding: 0 25px;
+}
+
 .card-item{
   margin:  15px 75px;
   border-radius: 7px !important;
@@ -261,7 +266,14 @@ header.masthead p {
   border: 1px solid #0ea5c6;
 }
 
+
+.btn-link{
+  color:  #fff !important;
+  font-weight: bolder !important;
+}
+
 .card-header{
+  background-color: #0ea5c6 !important;
   padding-left: 50px !important;
   padding-right: 50px !important;
 }
