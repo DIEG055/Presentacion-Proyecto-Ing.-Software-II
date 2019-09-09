@@ -14,7 +14,7 @@ section,
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
+  font-weight: 750;
   text-transform: uppercase;
   color: #0ea5c6;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -28,8 +28,8 @@ section,
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
-  font-weight: 700;
+  font-size: .75rem;
+  font-weight: 650;
   text-transform: uppercase;
   color: #0ea5c6;
 }
@@ -92,12 +92,12 @@ section,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #074684;;
   }
-}
+
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../Img/schoolItems3.jpg");
+  background-image: url("../Img/header-image.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -111,7 +111,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 3.5rem !important;
 }
 
 header.masthead p {
@@ -148,34 +148,71 @@ header.masthead p {
   padding: 15px !important;
 }
 
-#about{
 
-  background-image: url('../Img/classroom2.jpg');
+.integrantes ul{
+  font-size: 30px !important;
+}
+
+#detallesProblematica{
+  /* padding: 10px auto !important; */
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+  background-color: #F7F7F7;
   /* filter: grayscale(40%); */
 }
 
-#about h4,
-#about h2,
- {
-  color: #3cc2df;
+.descripcionProblema p{
+
+  padding: 10px; 
 }
 
-#about hr{
+#detallesProblematica h4,
+#detallesProblematica h2
+ {
+
+}
+
+#detallesProblematica hr{
   max-width: 300px;
   border-width: 3px;
   border-color: #3cc2df;
 }
 
 #learning{
-  background-color: #f4f3f3;
+  /* background-color: #f4f3f3; */
 }
+
+
+#Problematica{
+  width: 100%;
+}
+
+.alternativas{
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.alternativas .card{
+  justify-content: space-between;
+  border: none;
+}
+
+
+#posibleSolucion h2{
+  margin-bottom: 50px;
+}
+
+#posibleSolucion {
+ background-color: #F7F7F7;
+}
+
+
 
 .learning-text{
   padding: 50px;
-  text-align: center;
+  text-align: justify;
 }
 
 .carousel-selectors {
@@ -226,7 +263,10 @@ header.masthead p {
   text-align: center
 }
 
-#admissions h5{
+#process{
+  background-color: #F7F7F7;
+}
+#process h5{
   text-align: center;
   padding: 10px;
 }
@@ -277,10 +317,12 @@ header.masthead p {
   background-color: #0ea5c6 !important;
   padding-left: 50px !important;
   padding-right: 50px !important;
+
 }
 
 .card-body{
-  padding:  15px 50px !important;
+  padding:  15px 15px !important;
+  text-align: justify !important;
 }
 
 .btn-link:hover{

@@ -1,0 +1,15 @@
+Node js
+	Node.js es un entorno que permite la ejecucion de JavaScript del lado del servidor. 
+
+
+Django
+	Es un framework de Python que permite el uso de este lenguage para el desarrollo web, este framework implementa el Patron de Diseño Modelo-Vista-Template
+
+
+
+HTML CSS JS
+	El stack de HTML, CSS y JS permite crear, diseñar y brindar interactividad al fronted de un aplicativo web. 
+
+
+Angular JS 
+	Es un framework MVC de java que permite desarrollar aplicaciones SPA (Single Page Applications)
