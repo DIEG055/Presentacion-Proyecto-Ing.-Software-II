@@ -164,8 +164,12 @@ header.masthead p {
 }
 
 .descripcionProblema p{
-
   padding: 10px; 
+}
+
+.solucionar p{
+  font-size: 17px;
+
 }
 
 #detallesProblematica h4,
@@ -194,6 +198,10 @@ header.masthead p {
   justify-content: space-around;
 }
 
+.alternativas p{
+  font-size: 17px;
+}
+
 .alternativas .card{
   justify-content: space-between;
   border: none;
@@ -213,6 +221,13 @@ header.masthead p {
 .learning-text{
   padding: 50px;
   text-align: justify;
+}
+
+.learning-text p,
+
+.learning-text li
+{
+  font-size: 18px;
 }
 
 .carousel-selectors {
