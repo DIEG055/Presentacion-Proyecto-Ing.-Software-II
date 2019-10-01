@@ -347,12 +347,16 @@ header.masthead p {
   text-align: center;
 }
 
+.back{
+  margin: auto;
+}
+
 #Github {
   padding: 50px;;
 }
 
 #Github p{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #name,
