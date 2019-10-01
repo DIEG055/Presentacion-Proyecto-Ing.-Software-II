@@ -7,6 +7,10 @@ section,
   padding: 4rem 3rem ;
 }
 
+li{
+  list-style: none;
+}
+
 
 
 #mainNav {
@@ -220,6 +224,16 @@ header.masthead p {
  background-color: #F7F7F7;
 }
 
+#Stack{
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+#Stack h5{
+  text-align: center;
+}
+
 
 
 .learning-text{
@@ -288,6 +302,39 @@ header.masthead p {
   text-align: center
 }
 
+.main-info {
+  margin: 2em 0;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+
+.info-item {
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  margin: 25px 10px;
+}
+
+.info-item h5 {
+  margin: 15px 0;
+}
+.info-item p {
+  font-size: 20px;
+}
+
+.info-item img {
+  width: 150px;
+  height: 150px;
+}
+
 #process{
   background-color: #F7F7F7;
 }
@@ -296,6 +343,17 @@ header.masthead p {
   padding: 10px;
 }
 
+.backlog li{
+  text-align: center;
+}
+
+#Github {
+  padding: 50px;;
+}
+
+#Github p{
+  font-size: 10px;
+}
 
 #name,
 #lastName,
@@ -363,7 +421,7 @@ header.masthead p {
 }
 
 #footer li{
-  list-style: none;;
+  list-style: none;
   display:  inline;
   margin: 15px;
 }
