@@ -473,3 +473,59 @@ header.masthead p {
     width: 30px;
     text-align: center;
 }
+
+
+/* Pendejadas Camilo */
+
+.iteracion-2{
+  /* border: 1px solid #000; */
+}
+
+.video{
+  width: 100%;
+  /* border: solid 1px red; */
+}
+
+.video iframe{
+  margin: 30px 10vh;
+  width: 100vh;
+  height: 55vh;
+}
+
+.video h3{
+  font-size: 35px;
+  margin: 0 0 0 20px;
+}
+
+.clickUp {
+  margin: 30px 0 20px 20px;
+}
+
+.clickUp h3{
+  font-size: 35px;
+}
+
+.repos{
+  margin: 40px 0 0 20px;
+}
+
+
+.repos h3{
+  font-size: 35px;
+}
+
+.prog{
+  margin: 40px 0 0 20px;
+}
+
+.prog h3{
+  font-size: 35px;
+}
+
+.producto{
+  margin: 40px 0 0 20px;
+}
+
+.producto h3{
+  font-size: 35px;
+}
