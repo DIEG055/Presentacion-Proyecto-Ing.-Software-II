@@ -88,11 +88,81 @@
       </div>
     </div>
   </section>
+  <div class="container my-5">
+      <div class="iteracion-2 mb-5">
+          <h1 class="mb-5">Iteración 3</h1>
+    
+          <div class="video">
+              <h3 class="my-2">Video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/XxlemDFTCto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+          </div>
+    
+          <div class="clickUp">
+            <h3 class="my-2">URL Sprint Backlog</h3>
+            <p>Como se mencionó en la iteración anterior, la plataforma ClickUp no cuenta con la opción de compartir una carpeta o proyecto para un usuario no registrado, pero si cuenta con la posibilidad de invitar a través de correo electrónico o a través de un link al proyecto, pero esto requiere registrarse en la aplicación, por lo cual hemos compartido la carpeta correspondiente al tercer Sprint al correo yyninor@unal.edu.co y hemos generado el siguiente link para acceder: <a target="_blank" href="https://app.clickup.com/459777/v/f/3170887">https://app.clickup.com/459777/v/f/3170887</a>
+            
+          </div>
+    
+          <div class="repos">
+    
+            <h3 class="my-2">URL Repositorios</h3>
+    
+            <div>
+              <a target="_blank" href="https://github.com/Quokka-Team/Tuttore-Backend"> <button target="blank" class="btn btn-primary my-2 mr-3" href="https://github.com/Quokka-Team/Tuttore-Backend">Backend</button></a>
+              <a target="_blank" href="https://github.com/Quokka-Team/Tuttore-Backend">https://github.com/Quokka-Team/Tuttore-Backend</a>
+            </div>
+    
+            <div>
+              <a target="_blank" href="https://github.com/Quokka-Team/Tuttore-Frontend"><button target="_blank" class="btn btn-primary my-2 mr-3"href="https://github.com/Quokka-Team/Tuttore-Frontend">FrontEnd</button></a>
+              <a target="_blank" href="https://github.com/Quokka-Team/Tuttore-Frontend">https://github.com/Quokka-Team/Tuttore-Frontend</a>
+            </div>
+    
+         
+    </div>
+          <div class="repos">
+    
+            <h3 class="my-2">Documento Devops Cycle</h3>
+    
+            <div>
+              <a target="_blank" href="https://docs.google.com/document/d/159Ja93VaHrCAghu5HvE5_WXfta8kC_-LKRR5bL6FoeY/edit?usp=sharing"> <button target="blank" class="btn btn-primary my-2 mr-3" href="https://docs.google.com/document/d/159Ja93VaHrCAghu5HvE5_WXfta8kC_-LKRR5bL6FoeY/edit?usp=sharing">Ver Documento</button></a>
+              <a target="_blank" href="https://docs.google.com/document/d/159Ja93VaHrCAghu5HvE5_WXfta8kC_-LKRR5bL6FoeY/edit?usp=sharing">https://docs.google.com/document/d/159Ja93VaHrCAghu5HvE5_WXfta8kC_-LKRR5bL6FoeY/edit?usp=sharing</a>
+            </div>
+    
+    
+         
+    </div>
+    
+          <div class="prog">
+            <h3 class="my-2" >Requerimiento no funcional</h1>
+            <p class="" style="text-align:justify">
+                El requerimiento no funcional sobre el cual se ha venido trabajando es la escalabilidad, en la primera iteración se implemento el sistema de bases de datos usando la herramienta <strong> Atlas de MongoDB</strong>, esta permite hasta 100 usuarios recurrentes en su versión gratuita, hasta el momento este servicio a suplido las necesidades de la aplicación. En la segunda Iteración se desplego la aplicación usando varios servicios proporcionados por <strong>AWS</strong>, no se han necesitado mas recursos de los que provee la capa gratuita para responder a las solicitudes de tráfico, sin embargo, para hacer llevar algunas de las estrategias de despliegue se necesitó un segundo nodo, para esto fue necesario un pequeño reescalonamiento de la aplicación que supero la capa gratuita, sin embargo, los costos han sido mínimos (no han superado los 5 USD). 
+                En esta tercera iteración, se llevó a cabo la implementación del feature correspondiente al manejo de imágenes y archivos secundarios, en una primera instancia se consideraron opciones como guardar los archivos en la base de datos o dentro de una carpeta del repositorio, estas opciones fueron descartadas y se optó usar un servicio de <strong>Cloud Storage</strong>, el cual permita almacenar archivos de gran tamaño sin problemas y facilitar la escalabilidad, el servicio que se eligió fue <strong>Google Drive G Suite</strong>, se eligió este servicio por 2 razones:
+            </p>
+              <ul>
+                <li>Dentro de las diferentes opciones Google Drive G Suite, aparte de poseer una API que puede ser consumida por cualquier servicio, posee un módulo para Node js que facilitad la integración de sus servicios en el proyecto. </li>
+                <br>
+                <li>Ofrece 15 gigas de almacenamiento gratuito sin ninguna restricción, además permite expandir ese tamaño cuando se desee, esta característica permite que el escalamiento sea fácil de realizar en caso de un crecimiento por parte de la aplicación.</li>
+              </ul>
+    
+          </div>
+    
+    
+          <div class="producto">
+            <h3 class="my-2"> URL producto Tercera Versión</h3>
+            <div>
+                <a target="_blank" href="https://tuttore-90660.firebaseapp.com/home-page">
+                  <button target="_blank" class="btn btn-primary mr-3" href="https://tuttore-90660.firebaseapp.com/home-page">Visitar Tuttore</button>    
+                </a>
+                <a target="_blank" href="https://tuttore-90660.firebaseapp.com/home-page">https://tuttore-90660.firebaseapp.com/home-page</a>
+            </div>
+          </div>
+    
+        </div>
+  </div>
   <div class="container my-5" style="size: 2;">
     <hr>
-    
-
-    <div class="iteracion-2">
+    <div class="iteracion-2 mt-5">
       <h1 class="mb-5">Iteración 2</h1>
 
       <div class="video">
